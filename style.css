@@ -53,10 +53,11 @@
         color:rgb(255, 255, 255);
         text-decoration: none;
         
-        font-family: 'Puritan', sans-serif;
+        font-family: 'Barlow Semi Condensed', sans-serif;
         margin-left: 0px;
         font-size: 20px;
-        
+        font-weight: 70%;
+        letter-spacing: 0.3px;
     }
 
     nav a:hover {
@@ -84,9 +85,10 @@
         padding: 10px;
         margin-top: -3px;
         color: white;
-        font-family: 'Puritan', sans-serif;
+        font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 15px;
         text-align: center;
+        font-weight: normal;
         }
     
     .cxlogo {right: 0px;
