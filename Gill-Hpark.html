@@ -1,10 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
     <head>
         <meta charset="utf-8">
         <title>Gill Fuel Corporation</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <h1>Caltex Highland Park</h1>
+    <body>
+    
+        <header class="index">
+
+            
+            
+            <h1 class="logo">Gill Fuel Corporation</h1>
+
+         
+    
+            <img class="cxlogo" src="CX-LOGO.jpg" alt="CX-LOGO">
+            
+            <nav class="indexnav">
+        
+                    <ul class="indexul">
+                        
+                    <li class="indexli"><a class ="indexa" href="index.html">HOME</li></a>
+                    <li class="indexli"><a class ="indexa" href="Gill-Orewa.html">CALTEX OREWA</li></a>
+                    <li class="indexli"><a class ="indexa" href="Gill-Manurewa.html">CALTEX MANUREWA</li></a>
+                    <li class="indexli"><a class ="indexa" href="services.html">SERVICES</li></a>
+                    <li class="indexli"><a class ="indexa" href="promotions.html"> PROMOTIONS</li></a>
+                    <li class="indexli"><a class ="indexa" href="techron-technology.html">TECHRON TECHNOLOGY</li></a>
+                    <li class="indexli"><a class ="indexa" href="contact-us.html">CONTACT US</li></a>
+                
+                </ul>
+            
+            </nav>
+        
+     
+    </header>
+
+    <section>
+        <img class="HPFILL1" src="CX-HPARK-HEADER.jpg" alt="Hpark2">
+    </section> 
+        
+    <section class="hp-section">
+
+           
+    
+                    <nav class="indexnav1">
+                
+                        <ul class="indexul1">
+                            <li class="indexli1">
+                                <a class ="indexa1" href="https://www.facebook.com/CaltexPakuranga/">
+                                    <img class="liimg1" src="FB-LOGO.png">
+                            </li>
+                            </a>
+                           
+                           
+                           
+                          
+                    <li class="indexli1">
+                        <a class ="indexa1" href="https://www.google.com/search?client=ubuntu&hs=UIB&channel=fs&ei=5474XZjQO8rjz7sPnpyK4Ak&q=caltex+highland+park&oq=caltex+highland+park&gs_l=psy-ab.3..0j38.12939.15279..15441...0.2..0.242.3322.0j13j6......0....1..gws-wiz.......0i71j0i131i273j0i131j0i273j0i67j0i22i30.ygDNoS8F7Co&ved=0ahUKEwjY38yUn7zmAhXK8XMBHR6OApwQ4dUDCAo&uact=5">
+                            <img class="liimg1" src="GOOGLE-LOGO.jpg">
+                    </li>
+                    </a>
+                            
+                            <li class="indexli1">
+                                    <img class=liimg1 src="PUMPED-LOGO.png">
+                            </li>
+                            
+                            <li class="indexli1">
+                                    <img class=liimg1 src="HPARK-LPG.png">
+                            </li>
+
+                            <li class="indexli1">
+                                <img class=liimg1 src="FIX-COFFEE.jpg">
+                        </li>
+
+                        
+                         <li class="indexli1">
+                                    <img class=liimg1 src="BEN-JERRYS.jpg"> 
+                            </li>
+
+                            <li class="indexli1">
+                                <img class=liimg1 src="LOTTO.jpg"> 
+                        </li>
+
+                        <li class="indexli1">
+                            <img class=liimg1 src="JESTERS.jpg"> 
+                    </li>
+                    
+                    <li class="indexli1">
+                        <img class=liimg1 src="SUBWAY-REUSE.png"> 
+                </li>
+
+                <li class="indexli1">
+                    <img class=liimg1 src="CARWASH.jpg"> 
+            </li>
+                        </ul>
+                    
+                    </nav>
+
+        <div id="map">
+
+                <script>
+                       
+                        function initMap() {
+                           
+                          var map = new google.maps.Map(document.getElementById('map'), 
+                          {
+                          zoom: 17, 
+                          center: {lat: -36.898805, lng: 174.903548},
+                          mapTypeId: google.maps.MapTypeId.HYBRID,
+                          gestureHandling: 'cooperative'
+                          });
+                              
+                          var contentString = '<div id="content">'+
+                        '<div id="siteNotice">'+
+                        '</div>'+
+                        '<h1 id="firstHeading" class="firstHeading">Caltex Highland Park</h1>'+
+                        '<div id="bodyContent">'+
+                        '<p>489 Pakuranga Road<br> ' +
+                        'Half Moon Bay<br>'+
+                        'Highland Park<br> '+
+                        'Auckland 2010<br> '+
+                        'New Zealand<br> '+
+                        '<a id="hpmap" href="https://maps.google.com/maps?ll=-36.898805,174.903548&amp;z=17&amp;t=h&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3&amp;cid=4216702297137189694" target="_blank">View full directions on Google Maps</a> '+
+                        '</p>'+
+                        '</div>'+
+                        '</div>';
+
+                        var infowindow = new google.maps.InfoWindow({
+                            content: contentString
+                        });
+
+                                    
+                        var marker = new google.maps.Marker({
+                        position: {lat: -36.898805, lng: 174.903548}, 
+                        map: map,
+                        title: '(Caltex Highland Park)'
+                        });
+                        marker.addListener('click', function() {
+                        infowindow.open(map, marker);
+                        });
+                        }
+
+                                
+
+                         </script>
+                            <script async defer 
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXN9-Tg6ocRc0OoKx3W0-NraKb8qBT4F4&callback=initMap">
+                            </script>
+                        
+                        
+
+
+
+
+        </div>
+                
+          
+                        
+     </section>
+    
+        <footer>
+            © Gill Fuel Corporation | Terms & Conditions | All Rights Are Reserved.
+        </footer>
+   
+</body>
