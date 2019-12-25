@@ -176,7 +176,7 @@
     overflow: hidden;
     z-index: -1;
     margin-bottom: 0px;
-    margin-top: 209px;
+    margin-top: 229px;
     padding-top: 0px;
     border: rgba(133, 131, 131, 0.986);
     border-style: outset;
@@ -184,6 +184,7 @@
     border-top-width: 3px;
     border-bottom-width: 3px;
     border-left-width: 3px;
+    right: 1277.5px
     }
  
     #firstHeading {
@@ -204,3 +205,101 @@
         color: red;
         font-size: 14px;
     }
+
+    .info-container  {
+        width: 50%;
+height: 81em;
+background-image: linear-gradient(rgb(66, 66, 66), rgba(108, 108, 108, 0.4));
+position: absolute;
+overflow: hidden;
+z-index: -1;
+margin-bottom: 0px;
+margin-top: 229px;
+padding-top: 0px;
+border:
+rgba(133, 131, 131, 0.986);
+    border-top-style: none;
+    border-top-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-style: none;
+    border-left-width: medium;
+border-style: outset;
+border-right-width: 3px;
+border-top-width: 3px;
+border-bottom-width: 3px;
+border-left-width: 3px;
+margin-right: 0px;
+right: 0px;
+    }
+   
+#info-h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 15px;
+    letter-spacing: -3px;
+    color: rgb(190, 162, 36);
+    font-weight: bold;
+    text-shadow: black 5px 2px 0px;
+   
+}
+
+
+.info-li {
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:30px;
+    color: white;
+    font-weight: lighter;
+    text-shadow: black -2px 2px 2px;
+}
+
+#info-24 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    color: white;
+}
+
+.info-ul {
+    margin-bottom: 45px;
+
+}
+
+.body-gtr {
+width: 101%;
+height: 34em;
+margin-top: 26px;
+}
+
+
+.h1-lpg-gtr {
+bottom: 432px;
+margin-left: 344px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+text-align: center;
+font-size: 72px;
+margin-bottom: 143px;
+letter-spacing: -3px;
+margin-top: 146px;
+position: absolute;
+margin-left: 271px;
+letter-spacing: -3px;
+color: rgb(190, 162, 36);
+font-weight: bold;
+text-shadow: black 5px 2px 0px;
+}
+
+.fas-fa-gas-pump {
+    padding-right: 5px;
+}
+
+.hp-fb-link {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:30px;
+    
+    font-weight: lighter;
+    text-shadow: black 2px -1px 0px;
+}
