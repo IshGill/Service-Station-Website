@@ -1,10 +1,13 @@
     .HP2 { max-width:100%;
         max-height:100%;}
 
-    body { margin: 0; }
+    body { width: 100%;
+        margin-right: auto;
+        margin-left: auto; }
+
     
     .container {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;}
         
     
@@ -168,27 +171,39 @@ rgb(0, 0, 0);
     position: absolute;
     margin-top: -2px;
     white-space: nowrap;
+    bottom: 0px;
+right: 0px;
+top: 66em;
+left: 0px;
    }
 
    #map {
+    overflow: hidden;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    padding-right: -17px;
+    margin-right: 0px;
+    margin-left: -5px;
     width: 50%;
     height: 81em;
-   
     position: absolute;
     overflow: hidden;
     z-index: -1;
     margin-bottom: 0px;
-    margin-top: 229px;
+    margin-top: 80em;
     padding-top: 0px;
     border:rgba(108, 108, 108, 0.986);
-        border-top-style: none;
-        border-top-width: medium;
-        border-right-style: none;
-        border-right-width: medium;
-        border-bottom-style: none;
-        border-bottom-width: medium;
-        border-left-style: none;
-        border-left-width: medium;
+    border-top-style: none;
+    border-top-width: medium;
+    border-right-style: none;
+    border-right-width: medium;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-style: none;
+    border-left-width: medium;
     border-style: outset;
     border-right-width: 3px;
     border-top-width: 0px;
@@ -197,7 +212,7 @@ rgb(0, 0, 0);
     right: 1277.5px;
 
 }
-    }
+    
  
     #firstHeading {
         font-weight: bold;
@@ -287,30 +302,45 @@ border-color: rgb(108, 108, 108);
 }
 
 .body-gtr {
-width: 101%;
-height: 34em;
-margin-top: 26px;
-box-shadow: 0 0 15px 0
-rgb(0, 0, 0);
+    width: 101%;
+
+    height: 34em;
+    
+    margin-top: -137px;
+    
+    box-shadow: 0 0 15px 0
+    rgb(0, 0, 0);
 
 }
 
 
 .h1-lpg-gtr {
-bottom: 432px;
-margin-left: 344px;
+    margin-top: 0px;
+
+    margin-left: 26px;
+    bottom: 432px;
+
+
+
 font-family: 'Barlow Semi Condensed', sans-serif;
+
 text-align: center;
+
 font-size: 72px;
+
 margin-bottom: 143px;
+
 letter-spacing: -3px;
-margin-top: 146px;
-position: absolute;
-margin-left: 271px;
-letter-spacing: -3px;
-color: rgb(190, 162, 36);
+
+
+
+color:
+rgb(190, 162, 36);
+
 font-weight: bold;
-text-shadow: black 5px 2px 0px;
+
+text-shadow:
+black 5px 2px 0px;
 }
 
 .fas-fa-gas-pump {
